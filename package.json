@@ -1,0 +1,20 @@
+{
+  "name": "quake-log-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --config test/config/.mocharc.unit.json --exit",
+    "coverage": "c8 --reporter=html --reporter=text mocha --config test/config/.mocharc.unit.json --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-spies": "^1.0.0",
+    "dirty-chai": "^2.0.1",
+    "mocha": "^10.0.0",
+    "c8": "^7.11.0"
+  }
+}
