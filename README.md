@@ -37,3 +37,20 @@ node .
 ```
 
 ### The result is stored in ./Result.json and the output is printed to the console.
+
+
+#### Example:
+
+
+```
+  "game-2": {
+    "total_kills": 11,
+    "players": {},
+    "kills": { "Isgalamido": 3 },
+    "kills_by_means": {
+      "MOD_TRIGGER_HURT": 7,
+      "MOD_ROCKET_SPLASH": 3,
+      "MOD_FALLING": 1
+    }
+  },
+```
