@@ -39,6 +39,11 @@ module.exports = class QLogParser {
   log() {
     const response = this.serverReportBuilder.build();
     console.log(response);
-    fs.writeFileSync("./Result.json", JSON.stringify(response));
+    fs.writeFileSync(
+      "./Result.json",
+      JSON.stringify(response, (_key, value) =>
+        value instanceof Set ? [...value] : value
+      )
+    );
   }
 };

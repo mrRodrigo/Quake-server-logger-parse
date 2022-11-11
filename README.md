@@ -38,14 +38,12 @@ node .
 
 ### The result is stored in ./Result.json and the output is printed to the console.
 
-
 #### Example:
-
 
 ```
   "game-2": {
     "total_kills": 11,
-    "players": {},
+    "players": ["Isgalamido", "Mocinha"],
     "kills": { "Isgalamido": 3 },
     "kills_by_means": {
       "MOD_TRIGGER_HURT": 7,
